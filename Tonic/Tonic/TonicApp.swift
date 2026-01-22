@@ -2,7 +2,7 @@
 //  TonicApp.swift
 //  Tonic
 //
-//  Created for transforming Mole CLI into a native macOS app
+//  Native macOS system management utility
 //
 
 import SwiftUI
@@ -35,12 +35,12 @@ struct TonicApp: App {
             CommandMenu("Help") {
                 Divider()
                 Button("Tonic Documentation") {
-                    if let url = URL(string: "https://github.com/tw93/Mole") {
+                    if let url = URL(string: "https://github.com/Saransh-Sharma/PreTonic") {
                         NSWorkspace.shared.open(url)
                     }
                 }
                 Button("Report an Issue") {
-                    if let url = URL(string: "https://github.com/tw93/Mole/issues") {
+                    if let url = URL(string: "https://github.com/Saransh-Sharma/PreTonic/issues") {
                         NSWorkspace.shared.open(url)
                     }
                 }
@@ -144,9 +144,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         alert.informativeText = """
         Version \(version) (Build \(build))
 
-        A modern Mac management utility.
+        A modern macOS system management utility.
 
-        Transforming Mole CLI into a native macOS experience.
+        Monitor your system with customizable menu bar widgets,
+        clean up disk space, and optimize your Mac's performance.
         """
         alert.alertStyle = .informational
         alert.addButton(withTitle: "OK")

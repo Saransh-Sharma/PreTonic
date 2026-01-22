@@ -2,14 +2,14 @@
 //  ProtectedApps.swift
 //  Tonic
 //
-//  Protected app lists migrated from lib/core/app_protection.sh
+//  Protected app lists for system safety
 //  System critical and data-protected application lists
 //
 
 import Foundation
 
 /// Protected application manager
-/// Migrated from Mole's lib/core/app_protection.sh
+/// Lists of apps that should never be uninstalled to protect system stability
 enum ProtectedApps {
     // MARK: - System Critical (never uninstall)
 

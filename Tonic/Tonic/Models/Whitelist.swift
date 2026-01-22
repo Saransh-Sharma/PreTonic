@@ -8,9 +8,9 @@
 import Foundation
 
 /// Whitelist manager for protecting paths from cleanup
-/// Migrated from Mole's lib/core/base.sh DEFAULT_WHITELIST_PATTERNS
+/// Default patterns for common development tools and system caches
 enum Whitelist {
-    /// Default whitelist patterns from Mole
+    /// Default whitelist patterns for common development tools and system caches
     static let defaultPatterns: [String] = [
         // Development caches
         "$HOME/Library/Caches/ms-playwright*",
