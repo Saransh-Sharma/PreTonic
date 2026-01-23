@@ -2,13 +2,12 @@
 //  TonicColors.swift
 //  Tonic
 //
-//  Color palette migrated from Mole CLI base.sh
+//  Color palette for Tonic UI
 //
 
 import SwiftUI
 
 /// Tonic color palette
-/// Migrated from lib/core/base.sh color definitions
 public enum TonicColors {
     // Brand colors
     public static let accent = Color(red: 0.3, green: 0.5, blue: 1.0)

@@ -624,7 +624,7 @@ struct AboutView: View {
                     .foregroundColor(.secondary)
             }
 
-            Text("A modern Mac management utility.\n\nTransforming Mole CLI into a native macOS experience.")
+            Text("A modern macOS system management utility.\n\nMonitor your system with customizable menu bar widgets, clean up disk space, and optimize your Mac's performance.")
                 .font(.body)
                 .foregroundColor(.secondary)
                 .multilineTextAlignment(.center)
@@ -639,9 +639,9 @@ struct AboutView: View {
                 .controlSize(.large)
                 .disabled(true)
 
-                Link("Website", destination: URL(string: "https://github.com/tw93/Mole")!)
-                Link("Privacy Policy", destination: URL(string: "https://github.com/tw93/Mole")!)
-                Link("License", destination: URL(string: "https://github.com/tw93/Mole/blob/main/LICENSE")!)
+                Link("Website", destination: URL(string: "https://github.com/Saransh-Sharma/PreTonic")!)
+                Link("Report an Issue", destination: URL(string: "https://github.com/Saransh-Sharma/PreTonic/issues")!)
+                Link("License", destination: URL(string: "https://github.com/Saransh-Sharma/PreTonic/blob/main/LICENSE")!)
             }
             .buttonStyle(.link)
             .font(.caption)
